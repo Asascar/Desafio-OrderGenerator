@@ -1,0 +1,194 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "QuickFIXn.Core/1.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/QuickFix.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/QuickFix.dll": {}
+        }
+      },
+      "QuickFIXn.FIX4.2/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "QuickFIXn.Core": "1.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/QuickFix.FIX42.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/QuickFix.FIX42.dll": {}
+        }
+      },
+      "QuickFIXn.FIX5.0/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "QuickFIXn.Core": "1.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/QuickFix.FIX50.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/QuickFix.FIX50.dll": {}
+        }
+      },
+      "sylr.QuickFIXn.Core/1.10.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/QuickFix.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/QuickFix.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QuickFIXn.Core/1.10.0": {
+      "sha512": "sZ2yCSwC3qKoKxjPseAnMNXwskvGvBEuWuiJfZWGfLV1C5NwInLOS5N3o0ZN666N9HDAVPzRKUxPGQvb1GgOOw==",
+      "type": "package",
+      "path": "quickfixn.core/1.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/QuickFix.dll",
+        "lib/netstandard2.0/QuickFix.xml",
+        "quickfixn.core.1.10.0.nupkg.sha512",
+        "quickfixn.core.nuspec"
+      ]
+    },
+    "QuickFIXn.FIX4.2/1.10.0": {
+      "sha512": "Fu+1VX+TrR7fKxRMGT1LABjdKz3uhpkK0IoVUNFNTxK2WO327vHUruSGYpeJQpaqW+EEusTbDjMyAS+y6qtfHw==",
+      "type": "package",
+      "path": "quickfixn.fix4.2/1.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/QuickFix.FIX42.dll",
+        "quickfixn.fix4.2.1.10.0.nupkg.sha512",
+        "quickfixn.fix4.2.nuspec"
+      ]
+    },
+    "QuickFIXn.FIX5.0/1.10.0": {
+      "sha512": "V7WW5oDcKFNIpIeGo48QPGen5cXEV1AfE9aT048pofUn7UMhCuvBHuWpe68vm54M0xvA6Z495KNFx2p2dJVpaQ==",
+      "type": "package",
+      "path": "quickfixn.fix5.0/1.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/QuickFix.FIX50.dll",
+        "quickfixn.fix5.0.1.10.0.nupkg.sha512",
+        "quickfixn.fix5.0.nuspec"
+      ]
+    },
+    "sylr.QuickFIXn.Core/1.10.3": {
+      "sha512": "wmYQQc8NPlkpUE6BYoGiJIgX22mrk/omSZT6iNt/NXvGFUzZztxWMbzlLlqO2BbmaWYJHKlvJ3Qa+UyJUElUGw==",
+      "type": "package",
+      "path": "sylr.quickfixn.core/1.10.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/QuickFix.dll",
+        "lib/netstandard2.0/QuickFix.xml",
+        "sylr.quickfixn.core.1.10.3.nupkg.sha512",
+        "sylr.quickfixn.core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "QuickFIXn.Core >= 1.10.0",
+      "QuickFIXn.FIX4.2 >= 1.10.0",
+      "QuickFIXn.FIX5.0 >= 1.10.0",
+      "sylr.QuickFIXn.Core >= 1.10.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\asasc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\asasc\\source\\repos\\OrderGenerator\\OrderGenerator\\OrderGenerator.csproj",
+      "projectName": "OrderGenerator",
+      "projectPath": "C:\\Users\\asasc\\source\\repos\\OrderGenerator\\OrderGenerator\\OrderGenerator.csproj",
+      "packagesPath": "C:\\Users\\asasc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\asasc\\source\\repos\\OrderGenerator\\OrderGenerator\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\asasc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/BancoArbi/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "QuickFIXn.Core": {
+            "target": "Package",
+            "version": "[1.10.0, )"
+          },
+          "QuickFIXn.FIX4.2": {
+            "target": "Package",
+            "version": "[1.10.0, )"
+          },
+          "QuickFIXn.FIX5.0": {
+            "target": "Package",
+            "version": "[1.10.0, )"
+          },
+          "sylr.QuickFIXn.Core": {
+            "target": "Package",
+            "version": "[1.10.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

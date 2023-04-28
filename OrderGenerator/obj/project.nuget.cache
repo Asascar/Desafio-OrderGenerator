@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "9x/Pa4VQSt6vDIBVmrdPq4yMDl36MPDOq1sDJs5nn2SHRgvdWt6ANjHnOvDID9VY1qmNsw53Dh8YzOySPXZwEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asasc\\source\\repos\\OrderGenerator\\OrderGenerator\\OrderGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asasc\\.nuget\\packages\\quickfixn.core\\1.10.0\\quickfixn.core.1.10.0.nupkg.sha512",
+    "C:\\Users\\asasc\\.nuget\\packages\\quickfixn.fix4.2\\1.10.0\\quickfixn.fix4.2.1.10.0.nupkg.sha512",
+    "C:\\Users\\asasc\\.nuget\\packages\\quickfixn.fix5.0\\1.10.0\\quickfixn.fix5.0.1.10.0.nupkg.sha512",
+    "C:\\Users\\asasc\\.nuget\\packages\\sylr.quickfixn.core\\1.10.3\\sylr.quickfixn.core.1.10.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,8 @@
+20230426-01:26:56.742 : Created session
+20230426-01:27:59.418 : Created session
+20230426-01:43:18.896 : Created session
+20230426-01:43:59.929 : Created session
+20230426-01:44:22.189 : Created session
+20230426-01:44:39.694 : Session FIX.4.0:EXECUTOR->CLIENT1 already disconnected: Resetting...
+20230426-01:44:39.697 : Session reset: ResetOnDisconnect
+20230426-01:44:39.702 : Session reset: Reset from WebInterface
